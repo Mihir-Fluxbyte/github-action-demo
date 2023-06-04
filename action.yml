@@ -1,0 +1,10 @@
+name: 'My Custom Action'
+description: 'Custom GH action with TypeScript'
+inputs:
+  name:
+    description: 'Name to greet'
+    required: false
+    default: 'GitHub User'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
